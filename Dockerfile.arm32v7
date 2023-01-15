@@ -1,0 +1,23 @@
+FROM arm32v7/ubuntu:latest
+
+MAINTAINER cade <cade.call@mediciventures.com>
+
+EXPOSE $RPCPORT
+
+EXPOSE $PORT
+
+RUN useradd -ms /bin/bash satoxcoin
+
+RUN mkdir /etc/satoxcoin
+
+RUN mkdir /var/lib/satoxcoin
+
+RUN chown satoxcoin:satoxcoin /etc/satoxcoin /var/lib/satoxcoin
+
+WORKDIR /home/satoxcoin
+
+COPY --chown=satoxcoin:satoxcoin linux64/* ./run.sh /home/satoxcoin/
+
+USER satoxcoin
+
+CMD ["/home/satoxcoin/run.sh"]

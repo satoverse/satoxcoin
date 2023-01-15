@@ -1,0 +1,11 @@
+[Protocol]
+exec=satoxcoin-qt '%u'
+protocol=satoxcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

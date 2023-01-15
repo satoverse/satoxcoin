@@ -1,0 +1,92 @@
+#!/sbin/runscript
+
+# backward compatibility for existing gentoo layout 
+#
+if [ -d "/var/lib/satoxcoin/.satoxcoin" ]; then
+	SATOXCOIND_DEFAULT_DATADIR="/var/lib/satoxcoin/.satoxcoin"
+else
+	SATOXCOIND_DEFAULT_DATADIR="/var/lib/satoxcoind"
+fi
+
+SATOXCOIND_CONFIGFILE=${SATOXCOIND_CONFIGFILE:-/etc/satoxcoin/satoxcoin.conf}
+SATOXCOIND_PIDDIR=${SATOXCOIND_PIDDIR:-/var/run/satoxcoind}
+SATOXCOIND_PIDFILE=${SATOXCOIND_PIDFILE:-${SATOXCOIND_PIDDIR}/satoxcoind.pid}
+SATOXCOIND_DATADIR=${SATOXCOIND_DATADIR:-${SATOXCOIND_DEFAULT_DATADIR}}
+SATOXCOIND_USER=${SATOXCOIND_USER:-${SATOXCOIN_USER:-satoxcoin}}
+SATOXCOIND_GROUP=${SATOXCOIND_GROUP:-satoxcoin}
+SATOXCOIND_BIN=${SATOXCOIND_BIN:-/usr/bin/satoxcoind}
+SATOXCOIND_NICE=${SATOXCOIND_NICE:-${NICELEVEL:-0}}
+SATOXCOIND_OPTS="${SATOXCOIND_OPTS:-${SATOXCOIN_OPTS}}"
+
+name="Satoxcoin Core Daemon"
+description="Satoxcoin cryptocurrency P2P network daemon"
+
+command="/usr/bin/satoxcoind"
+command_args="-pid=\"${SATOXCOIND_PIDFILE}\" \
+		-conf=\"${SATOXCOIND_CONFIGFILE}\" \
+		-datadir=\"${SATOXCOIND_DATADIR}\" \
+		-daemon \
+		${SATOXCOIND_OPTS}"
+
+required_files="${SATOXCOIND_CONFIGFILE}"
+start_stop_daemon_args="-u ${SATOXCOIND_USER} \
+			-N ${SATOXCOIND_NICE} -w 2000"
+pidfile="${SATOXCOIND_PIDFILE}"
+
+# The retry schedule to use when stopping the daemon. Could be either
+# a timeout in seconds or multiple signal/timeout pairs (like
+# "SIGKILL/180 SIGTERM/300")
+retry="${SATOXCOIND_SIGTERM_TIMEOUT}"
+
+depend() {
+	need localmount net
+}
+
+# verify
+# 1) that the datadir exists and is writable (or create it)
+# 2) that a directory for the pid exists and is writable
+# 3) ownership and permissions on the config file
+start_pre() {
+	checkpath \
+	-d \
+	--mode 0750 \
+	--owner "${SATOXCOIND_USER}:${SATOXCOIND_GROUP}" \
+	"${SATOXCOIND_DATADIR}"
+
+	checkpath \
+	-d \
+	--mode 0755 \
+	--owner "${SATOXCOIND_USER}:${SATOXCOIND_GROUP}" \
+	"${SATOXCOIND_PIDDIR}"
+
+	checkpath -f \
+	-o ${SATOXCOIND_USER}:${SATOXCOIND_GROUP} \
+	-m 0660 \
+	${SATOXCOIND_CONFIGFILE}
+
+	checkconfig || return 1
+}
+
+checkconfig()
+{
+	if ! grep -qs '^rpcpassword=' "${SATOXCOIND_CONFIGFILE}" ; then
+		eerror ""
+		eerror "ERROR: You must set a secure rpcpassword to run satoxcoind."
+		eerror "The setting must appear in ${SATOXCOIND_CONFIGFILE}"
+		eerror ""
+		eerror "This password is security critical to securing wallets "
+		eerror "and must not be the same as the rpcuser setting."
+		eerror "You can generate a suitable random password using the following "
+		eerror "command from the shell:"
+		eerror ""
+		eerror "bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'"
+		eerror ""
+		eerror "It is recommended that you also set alertnotify so you are "
+		eerror "notified of problems:"
+		eerror ""
+		eerror "ie: alertnotify=echo %%s | mail -s \"Satoxcoin Alert\"" \
+			"admin@foo.com"
+		eerror ""
+		return 1
+	fi
+}

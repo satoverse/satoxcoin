@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Satoxcoin Core
+Comment=Connect to the Satoxcoin P2P Network
+Comment[de]=Verbinde mit dem Satoxcoin peer-to-peer Netzwerk
+Comment[fr]=Satoxcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Satoxcoin, eşten eşe kriptografik sanal para birimi
+Exec=satoxcoin-qt %u
+Terminal=false
+Type=Application
+Icon=satoxcoin128
+MimeType=x-scheme-handler/satoxcoin;
+Categories=Office;Finance;

@@ -1,0 +1,157 @@
+
+## <summary>policy for satoxcoin</summary>
+
+
+########################################
+## <summary>
+##	Transition to satoxcoin.
+## </summary>
+## <param name="domain">
+## <summary>
+##	Domain allowed to transition.
+## </summary>
+## </param>
+#
+interface(`satoxcoin_domtrans',`
+	gen_require(`
+		type satoxcoin_t, satoxcoin_exec_t;
+	')
+
+	corecmd_search_bin($1)
+	domtrans_pattern($1, satoxcoin_exec_t, satoxcoin_t)
+')
+
+
+########################################
+## <summary>
+##	Execute satoxcoin server in the satoxcoin domain.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`satoxcoin_initrc_domtrans',`
+	gen_require(`
+		type satoxcoin_initrc_exec_t;
+	')
+
+	init_labeled_script_domtrans($1, satoxcoin_initrc_exec_t)
+')
+
+
+########################################
+## <summary>
+##	Search satoxcoin lib directories.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`satoxcoin_search_lib',`
+	gen_require(`
+		type satoxcoin_var_lib_t;
+	')
+
+	allow $1 satoxcoin_var_lib_t:dir search_dir_perms;
+	files_search_var_lib($1)
+')
+
+########################################
+## <summary>
+##	Read satoxcoin lib files.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`satoxcoin_read_lib_files',`
+	gen_require(`
+		type satoxcoin_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	read_files_pattern($1, satoxcoin_var_lib_t, satoxcoin_var_lib_t)
+')
+
+########################################
+## <summary>
+##	Manage satoxcoin lib files.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`satoxcoin_manage_lib_files',`
+	gen_require(`
+		type satoxcoin_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	manage_files_pattern($1, satoxcoin_var_lib_t, satoxcoin_var_lib_t)
+')
+
+########################################
+## <summary>
+##	Manage satoxcoin lib directories.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`satoxcoin_manage_lib_dirs',`
+	gen_require(`
+		type satoxcoin_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	manage_dirs_pattern($1, satoxcoin_var_lib_t, satoxcoin_var_lib_t)
+')
+
+
+########################################
+## <summary>
+##	All of the rules required to administrate
+##	a satoxcoin environment
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+## <param name="role">
+##	<summary>
+##	Role allowed access.
+##	</summary>
+## </param>
+## <rolecap/>
+#
+interface(`satoxcoin_admin',`
+	gen_require(`
+		type satoxcoin_t;
+		type satoxcoin_initrc_exec_t;
+		type satoxcoin_var_lib_t;
+	')
+
+	allow $1 satoxcoin_t:process { ptrace signal_perms };
+	ps_process_pattern($1, satoxcoin_t)
+
+	satoxcoin_initrc_domtrans($1)
+	domain_system_change_exemption($1)
+	role_transition $2 satoxcoin_initrc_exec_t system_r;
+	allow $2 system_r;
+
+	files_search_var_lib($1)
+	admin_pattern($1, satoxcoin_var_lib_t)
+
+')
+

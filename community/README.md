@@ -1,0 +1,2 @@
+# Satoxcoin - Community Ideas
+

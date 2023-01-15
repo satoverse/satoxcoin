@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  satoxcoind The satoxcoin core server.
+#
+#
+# chkconfig: 345 80 20
+# description: satoxcoind
+# processname: satoxcoind
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/satoxcoind, see below
+if [ -f /etc/sysconfig/satoxcoind ]; then
+        . /etc/sysconfig/satoxcoind
+fi
+
+RETVAL=0
+
+prog=satoxcoind
+# you can override the lockfile via SATOXCOIND_LOCKFILE in /etc/sysconfig/satoxcoind
+lockfile=${SATOXCOIND_LOCKFILE-/var/lock/subsys/satoxcoind}
+
+# satoxcoind defaults to /usr/bin/satoxcoind, override with SATOXCOIND_BIN
+satoxcoind=${SATOXCOIND_BIN-/usr/bin/satoxcoind}
+
+# satoxcoind opts default to -disablewallet, override with SATOXCOIND_OPTS
+satoxcoind_opts=${SATOXCOIND_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $satoxcoind $satoxcoind_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

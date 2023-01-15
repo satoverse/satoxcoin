@@ -1,0 +1,27 @@
+FROM amd64/ubuntu:latest
+
+MAINTAINER cade <cade.call@mediciventures.com>
+
+EXPOSE $RPCPORT
+
+EXPOSE $PORT
+
+RUN apt-get update && apt-get install -y bash net-tools && apt-get clean
+
+RUN useradd -ms /bin/bash satoxcoin
+
+RUN mkdir /etc/satoxcoin
+
+RUN mkdir /var/lib/satoxcoin
+
+RUN chown satoxcoin:satoxcoin /etc/satoxcoin /var/lib/satoxcoin
+
+WORKDIR /home/satoxcoin
+
+COPY --chown=satoxcoin:satoxcoin linux64/* /home/satoxcoin/
+
+COPY --chown=satoxcoin:satoxcoin run.sh /home/satoxcoin/
+
+USER satoxcoin
+
+CMD ["/home/satoxcoin/run.sh"]

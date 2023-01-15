@@ -1,0 +1,33 @@
+# /etc/conf.d/satoxcoind: config file for /etc/init.d/satoxcoind
+
+# Config file location
+#SATOXCOIND_CONFIGFILE="/etc/satoxcoin/satoxcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $SATOXCOIND_USER)
+#SATOXCOIND_PIDDIR="/var/run/satoxcoind"
+
+# What filename to give the pidfile
+#SATOXCOIND_PIDFILE="${SATOXCOIND_PIDDIR}/satoxcoind.pid"
+
+# Where to write satoxcoind data (be mindful that the blockchain is large)
+#SATOXCOIND_DATADIR="/var/lib/satoxcoind"
+
+# User and group to own satoxcoind process
+#SATOXCOIND_USER="satoxcoin"
+#SATOXCOIND_GROUP="satoxcoin"
+
+# Path to satoxcoind executable
+#SATOXCOIND_BIN="/usr/bin/satoxcoind"
+
+# Nice value to run satoxcoind under
+#SATOXCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#SATOXCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for satoxcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+SATOXCOIND_SIGTERM_TIMEOUT=60

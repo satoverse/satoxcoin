@@ -1,0 +1,6 @@
+usr/local/bin/satoxcoin-qt usr/bin
+share/pixmaps/satoxcoin32.xpm usr/share/pixmaps
+share/pixmaps/satoxcoin16.xpm usr/share/pixmaps
+share/pixmaps/satoxcoin128.png usr/share/pixmaps
+debian/satoxcoin-qt.desktop usr/share/applications
+debian/satoxcoin-qt.protocol usr/share/kde4/services/
