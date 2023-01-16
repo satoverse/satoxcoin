@@ -3,7 +3,7 @@ Satoxcoin Core
 
 * Official Site - https://satoverse.io
 * Official Pool - https://pool.satoverse.io
-* Official Explorer - https://explorer.satoverse.io
+* Official Explorer - https://explore2.satoverse.io
 
 Satoxcoin Specs
 -----------------
