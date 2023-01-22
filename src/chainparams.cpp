@@ -181,7 +181,7 @@ public:
 
 
         //vSeeds.emplace_back("66.42.117.31", false);
-	   // vSeeds.emplace_back("167.179.94.220", false);
+	   vSeeds.emplace_back("node1.satoverse.io", true);
 
         // Address start with S
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
@@ -193,7 +193,7 @@ public:
         // SATOXCOIN BIP44 cointype in mainnet is '1669'
         nExtCoinType = 1669;
 
-        //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
+        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
