@@ -179,9 +179,9 @@ public:
 	    assert(consensus.hashGenesisBlock == uint256S("0x000000edd819220359469c54f2614b5602ebc775ea67a64602f354bdaa320f70"));
         assert(genesis.hashMerkleRoot == uint256S("0xe8916cf6592c8433d598c3a5fe60a9741fd2a997b39d93af2d789cdd9d9a7390"));
 
+	   vSeeds.emplace_back("node1.satoverse.io", false);
+	   // vSeeds.emplace_back("node2.satoverse.io", false);
 
-        //vSeeds.emplace_back("66.42.117.31", false);
-	   vSeeds.emplace_back("node1.satoverse.io", true);
 
         // Address start with S
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
