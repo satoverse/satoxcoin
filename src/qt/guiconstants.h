@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2016 The Bitcoin Core developers
 // Copyright (c) 2017-2019 The Raven Core developers
-// Copyright (c) 2020-2021 The Satoxcoin Core developers
+// Copyright (c) 2020-2023 The Satoxcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,8 +41,24 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 
 #define COLOR_WALLETFRAME_SHADOW QColor(0,0,0,71)
 
-/* Color of labels */
-#define COLOR_LABELS QColor("#4960ad")
+
+
+/** satoxcoin pform */
+
+/* Color of labels, searchbar border color */
+#define COLOR_LABELS QColor("#d10669")
+/* Gradient dark dark blue */
+#define COLOR_DARK_BLUE QColor("#020710")
+/* Gradient light dark blue */
+#define COLOR_LIGHT_BLUE QColor("#0d1e35")
+/* NOT selected text color */
+#define COLOR_TOOLBAR_NOT_SELECTED_TEXT QColor("#ffffff")
+/* Selected text color */
+#define COLOR_TOOLBAR_SELECTED_TEXT QColor("#d10669")
+/* Header text color */
+#define STRING_LABEL_COLOR "color: #d10669"
+
+
 
 /** LIGHT MODE */
 /* Background color, very light gray */
@@ -51,18 +67,14 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 #define COLOR_DARK_ORANGE QColor("#f05239")
 /* Satoxcoin light orange */
 #define COLOR_LIGHT_ORANGE QColor("#f79433")
-/* Satoxcoin dark blue */
-#define COLOR_DARK_BLUE QColor("#384192")
-/* Satoxcoin light blue */
-#define COLOR_LIGHT_BLUE QColor("#5874cf")
+
 /* Satoxcoin asset text */
 #define COLOR_ASSET_TEXT QColor(255, 255, 255)
 /* Satoxcoin shadow color - light mode */
 #define COLOR_SHADOW_LIGHT QColor("#e1e6f3")
-/* Toolbar not selected text color */
-#define COLOR_TOOLBAR_NOT_SELECTED_TEXT QColor("#a5b7f3")
-/* Toolbar selected text color */
-#define COLOR_TOOLBAR_SELECTED_TEXT COLOR_WHITE
+
+
+
 /* Send entries background color */
 #define COLOR_SENDENTRIES_BACKGROUND QColor("#fbfbfe")
 
@@ -93,7 +105,6 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 
 
 /* Satoxcoin label color as a string */
-#define STRING_LABEL_COLOR "color: #4960ad"
 #define STRING_LABEL_COLOR_WARNING "color: #FF8080"
 
 
@@ -118,7 +129,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Satoxcoin"
-#define QAPP_ORG_DOMAIN "satoxcoin.org"
+#define QAPP_ORG_DOMAIN "satoverse.io"
 #define QAPP_APP_NAME_DEFAULT "Satoxcoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Satoxcoin-Qt-testnet"
 
