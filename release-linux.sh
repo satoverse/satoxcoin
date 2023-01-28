@@ -1,11 +1,11 @@
-VERSION=1.0.3.0
+VERSION=2.0.0.0
 rm -rf ./release-linux
 mkdir release-linux
 
 cp ./src/satoxcoind ./release-linux/
 cp ./src/satoxcoin-cli ./release-linux/
 cp ./src/qt/satoxcoin-qt ./release-linux/
-cp ./SATOXCOINCOIN_small.png ./release-linux/
+cp ./satoxcoin_small.png ./release-linux/
 
 cd ./release-linux/
 strip satoxcoind
@@ -34,7 +34,7 @@ cp ../satoxcoin-qt ./usr/local/bin/
 
 # prepare for desktop shortcut
 mkdir -p ./usr/share/icons/
-cp ../SATOXCOINCOIN_small.png ./usr/share/icons/
+cp ../satoxcoin_small.png ./usr/share/icons/
 mkdir -p ./usr/share/applications/
 echo '
 #!/usr/bin/env xdg-open
@@ -46,7 +46,7 @@ Terminal=false
 Exec=/usr/local/bin/satoxcoin-qt
 Name=satoxcoincoin
 Comment= satoxcoin coin wallet
-Icon=/usr/share/icons/SATOXCOINCOIN_small.png
+Icon=/usr/share/icons/satoxcoin_small.png
 ' > ./usr/share/applications/satoxcoincoin.desktop
 
 cd ../
@@ -75,17 +75,17 @@ cp ../satoxcoin-qt ./usr/bin/
 
 # prepare for desktop shortcut
 mkdir -p ./usr/share/icons/
-cp ../SATOXCOINCOIN_small.png ./usr/share/icons/
+cp ../satoxcoin_small.png ./usr/share/icons/
 mkdir -p ./usr/share/applications/
 echo '
 [Desktop Entry]
-Version=1.0
+Version=2.0.0.0
 Type=Application
 Terminal=false
 Exec=/usr/bin/satoxcoin-qt
 Name=satoxcoincoin
 Comment= satoxcoin coin wallet
-Icon=/usr/share/icons/SATOXCOINCOIN_small.png
+Icon=/usr/share/icons/satoxcoin_small.png
 ' > ./usr/share/applications/satoxcoincoin.desktop
 cd ../
 
@@ -107,7 +107,7 @@ Version: $VERSION
 Release: 1
 License: MIT
 SOURCE0 : %{name}-%{version}.tar.gz
-URL: https://www.satoxcoincoin.net/
+URL: https://www.satoverse.io/
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
@@ -134,12 +134,12 @@ rm -rf %{buildroot}
 
 %files
 /usr/share/applications/satoxcoincoin.desktop
-/usr/share/icons/SATOXCOINCOIN_small.png
+/usr/share/icons/satoxcoin_small.png
 %defattr(-,root,root,-)
 %{_bindir}/*
 
 %changelog
-* Tue Aug 24 2021  Satoxcoin Project Team.
+* Sat Jan 28 2023  Satoxcoin Project Team.
 - First Build
 
 EOF

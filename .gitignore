@@ -124,3 +124,6 @@ cmake-build-debug
 CMakeLists.txt
 db-4.8.30.NC/
 db4/
+
+#release-linux folder
+release-linux/
