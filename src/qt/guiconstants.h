@@ -43,7 +43,7 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 
 
 
-/** satoxcoin pform */
+/** satoxcoin by pform */
 
 /* Color of labels, searchbar border color */
 #define COLOR_LABELS QColor("#d10669")
@@ -57,7 +57,8 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 #define COLOR_TOOLBAR_SELECTED_TEXT QColor("#d10669")
 /* Header text color */
 #define STRING_LABEL_COLOR "color: #d10669"
-
+/* warning string color */
+#define STRING_LABEL_COLOR_WARNING "color: #d10669"
 
 
 /** LIGHT MODE */
@@ -83,13 +84,13 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 /* Widget background color, dark mode */
 #define COLOR_WIDGET_BACKGROUND_DARK QColor("#1c2535")
 /* Satoxcoin shadow color - dark mode */
-#define COLOR_SHADOW_DARK QColor("#0c1b3d")
+#define COLOR_SHADOW_DARK QColor("#191919")
 /* Satoxcoin Light blue - dark mode - dark mode */
-#define COLOR_LIGHT_BLUE_DARK QColor("#1e2636")
+#define COLOR_LIGHT_BLUE_DARK QColor("#020710")
 /* Satoxcoin Dark blue - dark mode - dark mode */
-#define COLOR_DARK_BLUE_DARK QColor("#0b1018")
+#define COLOR_DARK_BLUE_DARK QColor("#0d1e35")
 /* Pricing widget background color */
-#define COLOR_PRICING_WIDGET QColor("#161e2d")
+#define COLOR_PRICING_WIDGET QColor("#020710")
 /* Satoxcoin dark mode administrator background color */
 #define COLOR_ADMIN_CARD_DARK COLOR_BLACK
 /* Satoxcoin dark mode regular asset background color */
@@ -97,15 +98,14 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 /* Satoxcoin dark mode regular asset background color */
 #define COLOR_REGULAR_CARD_LIGHT_BLUE_DARK_MODE QColor("#0e1b3b")
 /* Toolbar not selected text color */
-#define COLOR_TOOLBAR_NOT_SELECTED_TEXT_DARK_MODE QColor("#6c80c5")
+#define COLOR_TOOLBAR_NOT_SELECTED_TEXT_DARK_MODE QColor("#ffffff")
 /* Toolbar selected text color */
 #define COLOR_TOOLBAR_SELECTED_TEXT_DARK_MODE QColor("#c5ccdf")
 /* Send entries background color dark mode */
 #define COLOR_SENDENTRIES_BACKGROUND_DARK QColor("#1c2535")
 
 
-/* Satoxcoin label color as a string */
-#define STRING_LABEL_COLOR_WARNING "color: #FF8080"
+
 
 
 

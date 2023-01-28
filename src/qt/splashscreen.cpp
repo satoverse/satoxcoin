@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2016 The Bitcoin Core developers
 // Copyright (c) 2017-2019 The Raven Core developers
-// Copyright (c) 2020-2021 The Satoxcoin Core developers
+// Copyright (c) 2020-2023 The Satoxcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,8 +41,9 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
 {
     // set reference point, paddings
     int paddingRight            = 50;
-    int paddingTop              = 50;
-    int titleVersionVSpace      = 17;
+    int paddingLeft             = 50;
+    int paddingTop              = 40;
+    int titleVersionVSpace      = 30;
     int titleCopyrightVSpace    = 40;
 
     float fontFactor            = 1.0;

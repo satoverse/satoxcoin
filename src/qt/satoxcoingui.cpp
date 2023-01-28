@@ -373,6 +373,8 @@ void SatoxcoinGUI::createActions()
     font.setWeight(QFont::Weight::ExtraLight);
 
     QActionGroup *tabGroup = new QActionGroup(this);
+    
+
 
     overviewAction = new QAction(platformStyle->SingleColorIconOnOff(":/icons/overview_selected", ":/icons/overview"), tr("&Overview"), this);
     overviewAction->setStatusTip(tr("Show general overview of wallet"));
@@ -768,15 +770,15 @@ void SatoxcoinGUI::createToolBars()
         labelCurrentPrice->setStyleSheet(currentPriceStyleSheet.arg(COLOR_LABELS.name()));
         labelCurrentPrice->setFont(currentMarketFont);
 
-        QLabel* labelBtcNeox = new QLabel();
-        labelBtcNeox->setText("BTC / SATOX");
-        labelBtcNeox->setContentsMargins(15,0,0,0);
-        labelBtcNeox->setFixedHeight(75);
-        labelBtcNeox->setAlignment(Qt::AlignVCenter);
-        labelBtcNeox->setStyleSheet(STRING_LABEL_COLOR);
-        labelBtcNeox->setFont(currentMarketFont);
+        QLabel* labelSatoxBtc = new QLabel();
+        labelSatoxBtc->setText("SATOX / BTC");
+        labelSatoxBtc->setContentsMargins(15,0,0,0);
+        labelSatoxBtc->setFixedHeight(75);
+        labelSatoxBtc->setAlignment(Qt::AlignVCenter);
+        labelSatoxBtc->setStyleSheet(STRING_LABEL_COLOR);
+        labelSatoxBtc->setFont(currentMarketFont);
 
-        labelVersionUpdate->setText("<a href=\"https://github.com/bitcoin/bitcoin/releases\">New Wallet Version Available</a>");
+        labelVersionUpdate->setText("<a href=\"https://github.com/satoverse/satoxcoin/releases\">New Wallet Version Available</a>");
         labelVersionUpdate->setTextFormat(Qt::RichText);
         labelVersionUpdate->setTextInteractionFlags(Qt::TextBrowserInteraction);
         labelVersionUpdate->setOpenExternalLinks(true);
@@ -790,7 +792,7 @@ void SatoxcoinGUI::createToolBars()
         priceLayout->setGeometry(headerWidget->rect());
         priceLayout->addWidget(labelCurrentMarket, 0, Qt::AlignVCenter | Qt::AlignLeft);
         priceLayout->addWidget(labelCurrentPrice, 0,  Qt::AlignVCenter | Qt::AlignLeft);
-        priceLayout->addWidget(labelBtcNeox, 0 , Qt::AlignVCenter | Qt::AlignLeft);
+        priceLayout->addWidget(labelSatoxBtc, 0 , Qt::AlignVCenter | Qt::AlignLeft);
         priceLayout->addStretch();
         priceLayout->addWidget(labelVersionUpdate, 0 , Qt::AlignVCenter | Qt::AlignRight);
 
@@ -852,7 +854,7 @@ void SatoxcoinGUI::createToolBars()
                                     labelCurrentPrice->setStyleSheet(currentPriceStyleSheet.arg(COLOR_LABELS.name()));
                             }
                             labelCurrentPrice->setText(QString("%1").arg(QString().setNum(next, 'f', 8)));
-                            labelCurrentPrice->setToolTip(tr("Brought to you by binance.com"));
+                            labelCurrentPrice->setToolTip(tr("Brought to you by txbit.io"));
                         }
                     }
                 }
@@ -947,7 +949,7 @@ void SatoxcoinGUI::createToolBars()
                                            "New Wallet Version Found",
                                            CClientUIInterface::MSG_VERSION | CClientUIInterface::BTN_NO);
                                    if (fRet) {
-                                       QString link = "https://github.com/bitcoin/bitcoin/releases";
+                                       QString link = "https://github.com/satoverse/satoxcoin/releases";
                                        QDesktopServices::openUrl(QUrl(link));
                                    }
                                }
@@ -1901,7 +1903,7 @@ void UnitDisplayStatusBarControl::onMenuSelection(QAction* action)
 
 void SatoxcoinGUI::getPriceInfo()
 {
-    request->setUrl(QUrl("https://api.binance.com/api/v1/ticker/price?symbol=SATOXBTC"));
+    request->setUrl(QUrl("https://api.txbit.io/api/public/getticker?market=SATOX/BTC"));
     networkManager->get(*request);
 }
 
@@ -1915,6 +1917,6 @@ void SatoxcoinGUI::mnemonic()
 
 void SatoxcoinGUI::getLatestVersion()
 {
-    versionRequest->setUrl(QUrl("https://api.github.com/repos/satoverse/Satoxcoin/releases"));
+    versionRequest->setUrl(QUrl("https://api.github.com/repos/satoverse/satoxcoin/releases"));
     networkVersionManager->get(*versionRequest);
 }
