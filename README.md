@@ -15,11 +15,11 @@ What is Satoxcoin?
 -----------------
 Satoxcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world. The Satoxcoin platform also lets anyone create assets (tokens) on the Satoxcoin network. Assets can be used for NFTs, STOs, Gift Cards, and fractional ownership of anything of value. Satoxcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network.
 
-icense
+License
 -------
 
-Satoxcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
+Satoxcoin Core is released under the terms of the MIT license. 
+See [COPYING](COPYING) for more information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
