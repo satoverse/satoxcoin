@@ -100,11 +100,9 @@ To resolve, you will need to copy libboost_system.dylib to libboost_system-mt.dy
 
 ### Need Help?
 
-- See the documentation at the [Satoxcoin Wiki](https://satoxcoin.wiki/wiki/SATOXCOINCOIN_Wiki)
+- See the documentation at the [docs.satoverse.io](https://docs.satoverse.io/)
 for help and more information.
-- Ask for help on [Discord](https://discord.gg/DUkcBst), [Telegram](https://t.me/SatoxcoinDev) or [Reddit](https://www.reddit.com/r/Satoxcoin/).
-- Ask for help on the [SatoxcoinTalk](https://www.bitcointalk.org/) forums, in the [Development and Technical discussion board](https://www.bitcointalk.org/?forum=661517).
-
+- Ask for help on [Discord](https://discord.com/invite/PTfwn4sZhF).
 Building from source
 ---------------------
 The following are developer notes on how to build the Satoxcoin core software on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
@@ -133,10 +131,12 @@ Satoxcoin repo's [root README](https://github.com/satoverse/Satoxcoin/blob/maste
 - [Dnsseed Policy](https://github.com/satoverse/Satoxcoin/blob/master/doc/dnsseed-policy.md)
 - [Benchmarking](https://github.com/satoverse/Satoxcoin/blob/master/doc/benchmarking.md)
 
+
+for help and more information.
+- Ask for help on [Discord](https://discord.com/invite/PTfwn4sZhF)
 ### Resources
-- Discuss on the [SatoxcoinTalk](https://www.bitcointalk.org/) forums, in the [Development & Technical Discussion board](---).
-- Discuss on chat [Discord](----), [Telegram](---) or [Reddit](---).
-- Find out more on the [Satoxcoin Wiki](---)
+- Discuss on chat [Discord](https://discord.com/invite/PTfwn4sZhF)
+- Check our documentation[docs.satoverse.io](https://docs.satoverse.io/)
 - Visit the project home [satoverse.io](https://satoverse.io)
 
 ### Miscellaneous
