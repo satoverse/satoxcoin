@@ -13,7 +13,7 @@ Satoxcoin Specs
 * P2P Port - 60777
 * RPC Port - 7777
 * Block Time - 1 min
-* Block Reward - 300 SATOX (270 reward, 30 donation)
+* Block Reward - 300 SATOX (270 reward, 30 Dev fee)
 
 What is Satoxcoin?
 -----------------
