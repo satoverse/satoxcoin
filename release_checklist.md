@@ -20,9 +20,9 @@
 
 **Post Release :**
 
-  1. Update satoxcoincoin.net with correct popup version
+  1. Update satoverse.io with correct version
   
-  2. Update satoxcoincoin.net with correct release download urls for each platform (Windows, Linux, Mac)
+  2. Update satoverse.io with correct release download urls for each platform (Windows, Linux, Mac)
 
 **Build Process**
 
