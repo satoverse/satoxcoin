@@ -761,7 +761,7 @@ void SatoxcoinGUI::createToolBars()
         labelCurrentMarket->setAlignment(Qt::AlignVCenter);
         labelCurrentMarket->setStyleSheet(STRING_LABEL_COLOR);
         labelCurrentMarket->setFont(currentMarketFont);
-        labelCurrentMarket->setText(tr("Satoxcoin Market Price"));
+        labelCurrentMarket->setText(tr("TXBIT - Satoxcoin Market Price:"));
 
         QString currentPriceStyleSheet = ".QLabel{color: %1;}";
         labelCurrentPrice->setContentsMargins(25,0,0,0);
@@ -771,7 +771,7 @@ void SatoxcoinGUI::createToolBars()
         labelCurrentPrice->setFont(currentMarketFont);
 
         QLabel* labelSatoxBtc = new QLabel();
-        labelSatoxBtc->setText("SATOX / BTC");
+        labelSatoxBtc->setText("SATOX / USDT");
         labelSatoxBtc->setContentsMargins(15,0,0,0);
         labelSatoxBtc->setFixedHeight(75);
         labelSatoxBtc->setAlignment(Qt::AlignVCenter);
@@ -1903,7 +1903,7 @@ void UnitDisplayStatusBarControl::onMenuSelection(QAction* action)
 
 void SatoxcoinGUI::getPriceInfo()
 {
-    request->setUrl(QUrl("https://api.txbit.io/api/public/getticker?market=SATOX/BTC"));
+    request->setUrl(QUrl("https://api.txbit.io/api/public/getticker?market=SATOX/USDT"));
     networkManager->get(*request);
 }
 
