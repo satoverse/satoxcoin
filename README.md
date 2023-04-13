@@ -6,7 +6,7 @@ Satoxcoin Specification / Tokenomics
 * Algorithm               - KawPoW
 * Type                    - PoW / Play2Earn / PoG
 * Block Time              - 60 sec
-* Block Reward            - 90% PoW | 10% Dev fee (Play2Earn is taken from Dev fee) ( 270 SATOX reward, 30 SATOX Dev fee )
+* Block Reward            - 90% PoW | 10% Dev fee (P2E is taken from Dev fee) - (270 SATOX reward, 30 SATOX Dev fee)
 * Premine                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
 * Retarget Algorithm      - DGW
 * Instamine Protection    - 1000 Blocks
