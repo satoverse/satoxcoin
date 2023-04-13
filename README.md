@@ -1,20 +1,63 @@
-Satoxcoin Core
+Satoxcoin Specification / Tokenomics
+==================================
+* Total Supply            - 8 Billion (would be mind over 100 year.)
+* Circulating Supply      - 4,338,643,060 (Date: 2023-04-13)
+* Burned Coin             - 1 Billion (1,008,100,010)
+* Algorithm               - KawPoW
+* Type                    - PoW / Play2Earn / PoG
+* Block Time              - 60 sec
+* Block Reward            - 90% PoW | 10% Dev fee (Play2Earn is taken from Dev fee) ( 270 SATOX reward, 30 SATOX Dev fee )
+* Premine                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
+* Retarget Algorithm      - DGW
+* Instamine Protection    - 1000 Blocks
+* Halving time            - 4 Years
+* P2P Port                - 60777
+* RPC Port                - 7777
+
+
+Satoxcoin Information
 ==================================
 
-* Official Site      - https://www.satoverse.io
-* Official Docs      - https://docs.satoverse.io
-* Official Explorer  - https://xplore.satoverse.io
-* Official Discord   - https://discord.com/invite/GFZYFuuHVq
-* Official Twitter   - https://twitter.com/satoverse_io
-* Official Telegram  - https://t.me/satoxcoin
+* Official Site       - https://www.satoverse.io
+* Official Whitepaper - https://www.satoverse.io/whitepaper/ 
+* Official Docs       - https://docs.satoverse.io
+* Official Explorer   - https://xplore.satoverse.io
+* Official Discord    - https://discord.com/invite/GFZYFuuHVq
+* Official Twitter    - https://twitter.com/satoverse_io
+* Telegram (English)  - https://t.me/satoxcoin
+* Telegram (Russian)  - https://t.me/satoxcoin_ru
+
+Satoxcoin Tracker
+==================================
+* LiveCoinWatch      - https://www.livecoinwatch.com/price/Satoxcoin-SATOX
+* CoinPaprika        - https://coinpaprika.com/coin/satox-satox-coin/
+* Blockspot.io       - https://blockspot.io/coin/satoxcoin/
+* CoinPare           - https://coinpare.io/coin/satox-satox-coin
+
+Mining
+==================================
+* Mining Pool Stats  - https://miningpoolstats.stream/satoxcoin
+* Poolbay.io         - https://poolbay.io/crypto/5830/satoxcoin
 
 
-Satoxcoin Specs
------------------
-* P2P Port - 60777
-* RPC Port - 7777
-* Block Time - 1 min
-* Block Reward - 300 SATOX (270 reward, 30 Dev fee)
+Exchanges with SATOXCOIN
+==================================
+
+P2B
+https://p2pb2b.com/trade/SATOX_USDT/
+
+DEX-TRADE
+https://dex-trade.com/spot/trading/SATOXUSDT
+
+TXBIT.IO
+https://txbit.io/Trade/SATOX/USDT
+
+XEGGEX
+https://xeggex.com/market/SATOX_USDT
+
+BITXONEX
+https://www.bitxonex.com/market/satoxusdt
+
 
 What is Satoxcoin?
 -----------------
