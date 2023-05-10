@@ -1,4 +1,4 @@
-Satoxcoin Specification / Tokenomics
+SATOXCOIN ($SATOX) Specification
 ==================================
 * Total Supply            - 8 Billion (would be mind over 100 year.)
 * Circulating Supply      - 4,338,643,060 (Date: 2023-04-13)
