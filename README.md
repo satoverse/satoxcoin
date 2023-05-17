@@ -1,5 +1,5 @@
-Satoxcoin Specification / Tokenomics
-==================================
+Satoxcoin Specification
+=======================
 * Total Supply            - 8 Billion (would be mind over 100 year.)
 * Circulating Supply      - 4,338,643,060 (Date: 2023-04-13)
 * Burned Coin             - 1 Billion (1,008,100,010)
