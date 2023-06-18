@@ -1,3 +1,5 @@
+<img src="https://www.satoverse.io/wp-content/uploads/2023/06/Satoxcoin-banner-github.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
+
 Satoxcoin Specification
 =======================
 * Total Supply            - 8 Billion (would be mind over 100 year.)
