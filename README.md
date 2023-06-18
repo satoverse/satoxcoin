@@ -1,4 +1,5 @@
 <img src="https://www.satoverse.io/wp-content/uploads/2023/06/Satoxcoin-banner-github.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
+
 What is Satoxcoin?
 =======================
 SATOCOIN ($SATOX) is a coin with its own blockchain. The SATOX project primary mission was to implement P2E, but only in split consensus with POW. True crypto was founded with concept of POW mining, and shall remain so on in future.
