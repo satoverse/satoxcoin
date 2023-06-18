@@ -1,113 +1,136 @@
 <img src="https://www.satoverse.io/wp-content/uploads/2023/06/Satoxcoin-banner-github.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
 
+<b>PS!</b> This repo only contains the Satoxcoin Core Wallet, <b>NOT</b> the P2E System.
+
 What is Satoxcoin?
 =======================
-SATOCOIN ($SATOX) is a coin with its own blockchain. The SATOX project primary mission was to implement P2E, but only in split consensus with POW. True crypto was founded with concept of POW mining, and shall remain so on in future.
+<b>Satoxcoin ($SATOX)</b> is a coin with its own blockchain. The <b>SATOX</b> project primary mission was to implement <b>P2E</b>, but only in split consensus with <b>POW</b>. True crypto was founded with concept of <b>POW mining</b>, and shall remain so on in future.
 
-We have taken a unique approach to Play2Earn, we are redefining the concept and we believe this is the correct way to earn crypto rewards in 2023, users have already earned SATOX on 375+ games on STEAM , there’s no need to play on dedicated servers, play like normal and earn your fair share of SATOX.
+We have taken a unique approach to <b>Play2Earn</b>, we are redefining the concept and we believe this is the correct way to earn crypto rewards in 2023, users have already <b>earned SATOX</b> on <b>375+</b> games on <b>STEAM</b>, there’s <b>no need to play on dedicated servers</b>, play like normal and earn your fair share of <b>SATOX</b>.
 
-What is unique?
+What makes Satoxcoin unique?
 =======================
+<b>
 ✅️ First P2E without the need for dedicated servers</br>
-✅️ First P2E that works on 265+ games on STEAM.</br>
+✅️ First P2E that works on 375+ games on STEAM.</br>
 ✅️ First P2E that works with gaming consoles (XBOX, STEAMDECK)</br>
-
-
-<img src="https://www.satoverse.io/wp-content/uploads/2023/06/p2e-rewards.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
-Check reward and status direct on our blockchain explorer.
-https://xplore.satoverse.io/rewards/
-
+</b></br>
 
 Satoxcoin Specification
 =======================
-* Total Supply            - 8 Billion (would be mind over 100 year.)
-* Burned Coin             - 1+ Billion https://xplore.satoverse.io/address/SQBurnSatoXAddressXXXXXXXXXXUqEipi
-* Algorithm               - KawPoW
-* Type                    - PoW
-* Block Time              - 60 sec
-* Block Reward            - 90% PoW | 10% Dev fee (P2E is taken from Dev fee) - (270 SATOX reward, 30 SATOX Dev fee)
-* Premine                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
-* Retarget Algorithm      - DGW
-* Instamine Protection    - 1000 Blocks
-* Halving time            - 4 Years
-* P2P Port                - 60777
-* RPC Port                - 7777
+* <b>Total Supply</b>            - 8 Billion (would be mind over 100 year.)
+* <b>Burned Coin</b>             - [1+ Billion](https://xplore.satoverse.io/address/SQBurnSatoXAddressXXXXXXXXXXUqEipi)
+* <b>Algorithm</b>               - KawPoW
+* <b>Type</b>                    - PoW
+* <b>Block Time</b>              - 60 sec
+* <b>Block Reward</b>            - 90% PoW | [10% Dev fee (P2E is taken from Dev fee)](https://xplore.satoverse.io/address/SQ5iQMsmqZiYY96rTx5Hisd7sx5GiGUbbN) - (270 SATOX reward, 30 SATOX Dev fee)
+* <b>Premine</b>                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
+* <b>Retarget Algorithm</b>      - DGW
+* <b>Instamine Protection</b>    - 1000 Blocks
+* <b>Halving time</b>            - 4 Years
+* <b>P2P Port</b>                - 60777
+* <b>RPC Port</b>                - 7777
 
 
 Information
 ==================================
 
-* Site                    - https://www.satoverse.io
-* Whitepaper              - https://www.satoverse.io/whitepaper/ 
-* Docs                    - https://docs.satoverse.io
-* Explorer                - https://xplore.satoverse.io
-* Asset Explorer          - https://xplore.satoverse.io/asset/
-* MediaKit                - https://www.satoverse.io/media-kit/
+* <b>Site</b>                    - https://www.satoverse.io
+* <b>Whitepaper</b>              - https://www.satoverse.io/whitepaper/ 
+* <b>Docs</b>                    - https://docs.satoverse.io
+* <b>Explorer</b>                - https://xplore.satoverse.io
+* <b>Asset Explorer</b>          - https://xplore.satoverse.io/asset/
+* <b>MediaKit</b>                - https://www.satoverse.io/media-kit/
 
 Social Media
 ==================================
-* Official Discord        - https://discord.com/invite/GFZYFuuHVq
-* Official Twitter        - https://twitter.com/satoverse_io
-* Telegram (English)      - https://t.me/satoxcoin
-* Telegram (Russian)      - https://t.me/satoxcoin_ru
-* Telegram (Chinese)      - https://t.me/satoxcoin_cn
-* Telegram (Turkey)       - https://t.me/satoxturkey
-* Telegram (Brazil)       - https://t.me/satoxcoin_br
-
-Satoxcoin P2E System
-==================================
-* Signup                  - https://xplore.satoverse.io/steam
-* Rewards                 - https://xplore.satoverse.io/rewards
-* Statistics              - https://xplore.satoverse.io/stats
-* Docs                    - Intro https://docs.satoverse.io/docs/satox-p2e/
-* Docs                    - Sign up https://docs.satoverse.io/docs/p2e-signup
-* Docs                    - Gaming Consoles https://docs.satoverse.io/docs/p2e-gaming-consoles
-* Docs                    - POG Score https://docs.satoverse.io/docs/p2e-pog-score
-* Docs                    - Rewards & Statistics https://docs.satoverse.io/docs/p2e-rewards-and-statistics
-* Docs                    - AntiCheat https://docs.satoverse.io/docs/p2e-anticheat
-* Docs                    - Appeals https://docs.satoverse.io/docs/p2e-appeals
-* Docs                    - Troubleshoot https://docs.satoverse.io/docs/p2e-troubleshoot
+* <b>Official Discord</b>        - https://discord.com/invite/GFZYFuuHVq
+* <b>Official Twitter</b>        - https://twitter.com/satoverse_io
+* <b>Telegram (English)</b>      - https://t.me/satoxcoin
+* <b>Telegram (Russian)</b>      - https://t.me/satoxcoin_ru
+* <b>Telegram (Chinese)</b>      - https://t.me/satoxcoin_cn
+* <b>Telegram (Turkey)</b>       - https://t.me/satoxturkey
+* <b>Telegram (Brazil)</b>       - https://t.me/satoxcoin_br
 
 Wallets
 ==================================
-Core Wallet               - https://github.com/satoverse/satoxcoin/releases
-BeeHive - WebWallet       - https://beehivewallet.link/
-BeeHive - Android         - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
-Paper Wallet              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app/
+* <b>Core Wallet</b>               - https://github.com/satoverse/satoxcoin/releases 
+* <b>BeeHive - WebWallet</b>       - https://beehivewallet.link/
+* <b>BeeHive - Android</b>         - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
+* <b>Paper Wallet</b>              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app/
+
 
 Aggregators / Trackers
 ==================================
-* CoinMarketCap           - https://coinmarketcap.com/currencies/satoxcoin/
-* Binance                 - https://www.binance.com/en/price/satoxcoin
-* Coinbase                - https://www.coinbase.com/price/satoxcoin
-* Crypto.com              - https://crypto.com/price/satoxcoin
-* Yahoo!Finance           - https://finance.yahoo.com/quote/SATOX-USD
-* Coincodex               - https://coincodex.com/crypto/satox/
-* CoinPaprika             - https://coinpaprika.com/coin/satox-satox-coin/
-* Livecoinwatch           - https://www.livecoinwatch.com/price/Satoxcoin-SATOX
-* Blockspot.io            - https://blockspot.io/coin/satoxcoin/
-* Coinpare                - https://coinpare.io/coin/satox-satox-coin
-* CoinRanking             - https://coinranking.com/coin/SzGeLUPZI+satoxcoin-satox
+* <b>CoinMarketCap</b>           - https://coinmarketcap.com/currencies/satoxcoin/
+* <b>Binance</b>                 - https://www.binance.com/en/price/satoxcoin
+* <b>Coinbase</b>                - https://www.coinbase.com/price/satoxcoin
+* <b>Crypto.com</b>              - https://crypto.com/price/satoxcoin
+* <b>Yahoo!Finance</b>           - https://finance.yahoo.com/quote/SATOX-USD
+* <b>Coincodex</b>               - https://coincodex.com/crypto/satox/
+* <b>CoinPaprika</b>             - https://coinpaprika.com/coin/satox-satox-coin/
+* <b>Livecoinwatch</b>           - https://www.livecoinwatch.com/price/Satoxcoin-SATOX
+* <b>Blockspot.io</b>            - https://blockspot.io/coin/satoxcoin/
+* <b>Coinpare</b>                - https://coinpare.io/coin/satox-satox-coin
+* <b>CoinRanking</b>             - https://coinranking.com/coin/SzGeLUPZI+satoxcoin-satox
 
 Mining
 ==================================
-* Mining Pool Stats      - https://miningpoolstats.stream/satoxcoin
-* Minerstats             - https://minerstat.com/coin/SATOX
-* Poolbay.io             - https://poolbay.io/crypto/5830/satoxcoin
-
+* <b>MiningPoolStats</b>        - https://miningpoolstats.stream/satoxcoin
+* <b>MinerStats</b>             - https://minerstat.com/coin/SATOX
+* <b>Poolbay.io</b>             - https://poolbay.io/crypto/5830/satoxcoin
 
 Exchanges
 ==================================
-* TRADEOGRE              - https://tradeogre.com/exchange/SATOX-USDT
-* INDOEX                 - https://indoex.io/orderbookmobile/SATOX_USDT
-* P2B                    - https://p2pb2b.com/trade/SATOX_USDT/
-* COINSBIT               - https://coinsbit.io/trade/SATOX_USDT
-* AZBIT                  - https://azbit.com/exchange/SATOX_USDT/
-* DEX-TRADE              - https://dex-trade.com/spot/trading/SATOXUSDT
-* TXBIT.IO               - https://txbit.io/Trade/SATOX/USDT
-* XEGGEX                 - https://xeggex.com/market/SATOX_USDT
+* <b>TRADEOGRE</b>              - https://tradeogre.com/exchange/SATOX-USDT
+* <b>INDOEX</b>                 - https://indoex.io/orderbookmobile/SATOX_USDT
+* <b>P2B</b>                    - https://p2pb2b.com/trade/SATOX_USDT/
+* <b>COINSBIT</b>               - https://coinsbit.io/trade/SATOX_USDT
+* <b>AZBIT</b>                  - https://azbit.com/exchange/SATOX_USDT/
+* <b>DEX-TRADE</b>              - https://dex-trade.com/spot/trading/SATOXUSDT
+* <b>TXBIT.IO</b>               - https://txbit.io/Trade/SATOX/USDT
+* <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
 
 
+
+SATOX Play2Earn
+=======================
+<img src="https://www.satoverse.io/wp-content/uploads/2023/06/satox-p2e-open-spots.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
+
+P2E Signup!
+=======================
+<img src="https://www.satoverse.io/wp-content/uploads/2023/06/p2e-signup.png" alt="Satoxcoin - P2E Signup" title="Satoxcoin - P2E Signup">
+<h3>Before you start, read the instructions below:</h3>
+https://docs.satoverse.io/docs/p2e-signup 
+
+<h3>Signup</h3>
+https://xplore.satoverse.io/steam</br>
+
+P2E Rewards
+=======================
+<img src="https://www.satoverse.io/wp-content/uploads/2023/06/p2e-rewards.png" alt="Satoxcoin - P2E Rewards" title="Satoxcoin - P2E Rewards">
+Check reward on our blockchain explorer.
+https://xplore.satoverse.io/rewards/
+
+P2E Stats
+=======================
+<img src="https://www.satoverse.io/wp-content/uploads/2023/06/p2e-stats.png" alt="Satoxcoin - P2E Stats" title="Satoxcoin - P2E Stats">
+Check Stats on our blockchain explorer.
+https://xplore.satoverse.io/stats/
+
+Satoxcoin P2E Links
+==================================
+* <b>Signup</b>                  - https://xplore.satoverse.io/steam
+* <b>Rewards</b>                 - https://xplore.satoverse.io/rewards
+* <b>Statistics</b>              - https://xplore.satoverse.io/stats
+* <b>Docs</b>                    - Intro https://docs.satoverse.io/docs/satox-p2e/
+* <b>Docs</b>                    - Sign up https://docs.satoverse.io/docs/p2e-signup
+* <b>Docs</b>                    - Gaming Consoles https://docs.satoverse.io/docs/p2e-gaming-consoles
+* <b>Docs</b>                    - POG Score https://docs.satoverse.io/docs/p2e-pog-score
+* <b>Docs</b>                    - Rewards & Statistics https://docs.satoverse.io/docs/p2e-rewards-and-statistics
+* <b>Docs</b>                    - AntiCheat https://docs.satoverse.io/docs/p2e-anticheat
+* <b>Docs</b>                    - Appeals https://docs.satoverse.io/docs/p2e-appeals
+* <b>Docs</b>                    - Troubleshoot https://docs.satoverse.io/docs/p2e-troubleshoot
 
 License
 -------
