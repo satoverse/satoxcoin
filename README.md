@@ -1,10 +1,9 @@
 Satoxcoin Specification
 =======================
 * Total Supply            - 8 Billion (would be mind over 100 year.)
-* Circulating Supply      - 4,338,643,060 (Date: 2023-04-13)
-* Burned Coin             - 1 Billion (1,008,100,010)
+* Burned Coin             - 1+ Billion https://xplore.satoverse.io/address/SQBurnSatoXAddressXXXXXXXXXXUqEipi
 * Algorithm               - KawPoW
-* Type                    - PoW / Play2Earn / PoG
+* Type                    - PoW
 * Block Time              - 60 sec
 * Block Reward            - 90% PoW | 10% Dev fee (P2E is taken from Dev fee) - (270 SATOX reward, 30 SATOX Dev fee)
 * Premine                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
@@ -18,50 +17,81 @@ Satoxcoin Specification
 Satoxcoin Information
 ==================================
 
-* Official Site       - https://www.satoverse.io
-* Official Whitepaper - https://www.satoverse.io/whitepaper/ 
-* Official Docs       - https://docs.satoverse.io
-* Official Explorer   - https://xplore.satoverse.io
-* Official Discord    - https://discord.com/invite/GFZYFuuHVq
-* Official Twitter    - https://twitter.com/satoverse_io
-* Telegram (English)  - https://t.me/satoxcoin
-* Telegram (Russian)  - https://t.me/satoxcoin_ru
+* Site                    - https://www.satoverse.io
+* Whitepaper              - https://www.satoverse.io/whitepaper/ 
+* Docs                    - https://docs.satoverse.io
+* Explorer                - https://xplore.satoverse.io
+* Asset Explorer          - https://xplore.satoverse.io/asset/
+* MediaKit                - https://www.satoverse.io/media-kit/
 
-Satoxcoin Tracker
+Social Media
 ==================================
-* LiveCoinWatch      - https://www.livecoinwatch.com/price/Satoxcoin-SATOX
-* CoinPaprika        - https://coinpaprika.com/coin/satox-satox-coin/
-* Blockspot.io       - https://blockspot.io/coin/satoxcoin/
-* CoinPare           - https://coinpare.io/coin/satox-satox-coin
+* Official Discord        - https://discord.com/invite/GFZYFuuHVq
+* Official Twitter        - https://twitter.com/satoverse_io
+* Telegram (English)      - https://t.me/satoxcoin
+* Telegram (Russian)      - https://t.me/satoxcoin_ru
+* Telegram (Chinese)      - https://t.me/satoxcoin_cn
+* Telegram (Turkey)       - https://t.me/satoxturkey
+* Telegram (Brazil)       - https://t.me/satoxcoin_br
+
+Satoxcoin P2E System
+==================================
+* Signup                  - https://xplore.satoverse.io/steam
+* Rewards                 - https://xplore.satoverse.io/rewards
+* Statistics              - https://xplore.satoverse.io/stats
+* Docs                    - Intro https://docs.satoverse.io/docs/satox-p2e/
+* Docs                    - Sign up https://docs.satoverse.io/docs/p2e-signup
+* Docs                    - Gaming Consoles https://docs.satoverse.io/docs/p2e-gaming-consoles
+* Docs                    - POG Score https://docs.satoverse.io/docs/p2e-pog-score
+* Docs                    - Rewards & Statistics https://docs.satoverse.io/docs/p2e-rewards-and-statistics
+* Docs                    - AntiCheat https://docs.satoverse.io/docs/p2e-anticheat
+* Docs                    - Appeals https://docs.satoverse.io/docs/p2e-appeals
+* Docs                    - Troubleshoot https://docs.satoverse.io/docs/p2e-troubleshoot
+
+Satoxcoin Wallets
+==================================
+Core Wallet               - https://github.com/satoverse/satoxcoin/releases
+BeeHive - WebWallet       - https://beehivewallet.link/
+BeeHive - Android         - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
+Paper Wallet              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app/
+
+Satoxcoin Aggregators / Trackers
+==================================
+* CoinMarketCap           - https://coinmarketcap.com/currencies/satoxcoin/
+* Binance                 - https://www.binance.com/en/price/satoxcoin
+* Coinbase                - https://www.coinbase.com/price/satoxcoin
+* Crypto.com              - https://crypto.com/price/satoxcoin
+* Yahoo!Finance           - https://finance.yahoo.com/quote/SATOX-USD
+* Coincodex               - https://coincodex.com/crypto/satox/
+* CoinPaprika             - https://coinpaprika.com/coin/satox-satox-coin/
+* Livecoinwatch           - https://www.livecoinwatch.com/price/Satoxcoin-SATOX
+* Blockspot.io            - https://blockspot.io/coin/satoxcoin/
+* Coinpare                - https://coinpare.io/coin/satox-satox-coin
+* CoinRanking             - https://coinranking.com/coin/SzGeLUPZI+satoxcoin-satox
 
 Mining
 ==================================
-* Mining Pool Stats  - https://miningpoolstats.stream/satoxcoin
-* Poolbay.io         - https://poolbay.io/crypto/5830/satoxcoin
+* Mining Pool Stats      - https://miningpoolstats.stream/satoxcoin
+* Minerstats             - https://minerstat.com/coin/SATOX
+* Poolbay.io             - https://poolbay.io/crypto/5830/satoxcoin
 
 
 Exchanges with SATOXCOIN
 ==================================
-
-P2B
-https://p2pb2b.com/trade/SATOX_USDT/
-
-DEX-TRADE
-https://dex-trade.com/spot/trading/SATOXUSDT
-
-TXBIT.IO
-https://txbit.io/Trade/SATOX/USDT
-
-XEGGEX
-https://xeggex.com/market/SATOX_USDT
-
-BITXONEX
-https://www.bitxonex.com/market/satoxusdt
-
+* TRADEOGRE              - https://tradeogre.com/exchange/SATOX-USDT
+* INDOEX                 - https://indoex.io/orderbookmobile/SATOX_USDT
+* P2B                    - https://p2pb2b.com/trade/SATOX_USDT/
+* COINSBIT               - https://coinsbit.io/trade/SATOX_USDT
+* AZBIT                  - https://azbit.com/exchange/SATOX_USDT/
+* DEX-TRADE              - https://dex-trade.com/spot/trading/SATOXUSDT
+* TXBIT.IO               - https://txbit.io/Trade/SATOX/USDT
+* XEGGEX                 - https://xeggex.com/market/SATOX_USDT
 
 What is Satoxcoin?
 -----------------
-Satoxcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world. The Satoxcoin platform also lets anyone create assets (tokens) on the Satoxcoin network. Assets can be used for NFTs, STOs, Gift Cards, and fractional ownership of anything of value. Satoxcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network.
+The SATOX project has a primary mission to implement P2E, but only in split consensus with POW. True crypto was founded with concept of POW mining, and shall remain so on in future.
+
+We have taken a unique approach to P2E (Play2Earn), we are redefining the concept and we believe this is the correct way to earn crypto rewards in 2023, you can play your favorite game on STEAM, users have already earned SATOX on 265+ games on STEAM , there’s no restrictions on servers, play like normal and earn your fair share of SATOX.
 
 License
 -------
@@ -92,5 +122,4 @@ not straightforward.
 
 
 Thank you to the Bitcoin developers.
-
 Thank you to the Ravencoin developers.
