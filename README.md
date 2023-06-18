@@ -14,7 +14,7 @@ Satoxcoin Specification
 * RPC Port                - 7777
 
 
-Satoxcoin Information
+Information
 ==================================
 
 * Site                    - https://www.satoverse.io
@@ -48,14 +48,14 @@ Satoxcoin P2E System
 * Docs                    - Appeals https://docs.satoverse.io/docs/p2e-appeals
 * Docs                    - Troubleshoot https://docs.satoverse.io/docs/p2e-troubleshoot
 
-Satoxcoin Wallets
+Wallets
 ==================================
 Core Wallet               - https://github.com/satoverse/satoxcoin/releases
 BeeHive - WebWallet       - https://beehivewallet.link/
 BeeHive - Android         - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
 Paper Wallet              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app/
 
-Satoxcoin Aggregators / Trackers
+Aggregators / Trackers
 ==================================
 * CoinMarketCap           - https://coinmarketcap.com/currencies/satoxcoin/
 * Binance                 - https://www.binance.com/en/price/satoxcoin
@@ -76,7 +76,7 @@ Mining
 * Poolbay.io             - https://poolbay.io/crypto/5830/satoxcoin
 
 
-Exchanges with SATOXCOIN
+Exchanges
 ==================================
 * TRADEOGRE              - https://tradeogre.com/exchange/SATOX-USDT
 * INDOEX                 - https://indoex.io/orderbookmobile/SATOX_USDT
