@@ -1,4 +1,21 @@
 <img src="https://www.satoverse.io/wp-content/uploads/2023/06/Satoxcoin-banner-github.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
+What is Satoxcoin?
+=======================
+SATOCOIN ($SATOX) is a coin with its own blockchain. The SATOX project primary mission was to implement P2E, but only in split consensus with POW. True crypto was founded with concept of POW mining, and shall remain so on in future.
+
+We have taken a unique approach to Play2Earn, we are redefining the concept and we believe this is the correct way to earn crypto rewards in 2023, users have already earned SATOX on 375+ games on STEAM , there’s no need to play on dedicated servers, play like normal and earn your fair share of SATOX.
+
+What is unique?
+=======================
+✅️ First P2E without the need for dedicated servers</br>
+✅️ First P2E that works on 265+ games on STEAM.</br>
+✅️ First P2E that works with gaming consoles (XBOX, STEAMDECK)</br>
+
+
+<img src="https://www.satoverse.io/wp-content/uploads/2023/06/p2e-rewards.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
+Check reward and status direct on our blockchain explorer.
+https://xplore.satoverse.io/rewards/
+
 
 Satoxcoin Specification
 =======================
@@ -89,11 +106,7 @@ Exchanges
 * TXBIT.IO               - https://txbit.io/Trade/SATOX/USDT
 * XEGGEX                 - https://xeggex.com/market/SATOX_USDT
 
-What is Satoxcoin?
------------------
-The SATOX project has a primary mission to implement P2E, but only in split consensus with POW. True crypto was founded with concept of POW mining, and shall remain so on in future.
 
-We have taken a unique approach to P2E (Play2Earn), we are redefining the concept and we believe this is the correct way to earn crypto rewards in 2023, you can play your favorite game on STEAM, users have already earned SATOX on 265+ games on STEAM , there’s no restrictions on servers, play like normal and earn your fair share of SATOX.
 
 License
 -------
