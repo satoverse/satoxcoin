@@ -5,6 +5,9 @@
 <img src="https://img.shields.io/github/v/release/satoverse/satoxcoin?&style=flat-square&logo=github&color=deeppink"></a>
 <img src="https://img.shields.io/github/release-date/satoverse/satoxcoin?display_date=published_at&style=flat-square&logo=github&color=deeppink"></a>
 <img src="https://img.shields.io/github/forks/satoverse/satoxcoin?&style=flat-square&logo=github&color=deeppink"></a>
+<img src="https://img.shields.io/badge/-C-mediumorchid?logoColor=white&style=flat-square"></a>
+<img src="https://img.shields.io/badge/-C++-darkorchid?logoColor=white&style=flat-square"></a>
+<img src="https://img.shields.io/badge/-Python-blueviolet?logoColor=white&style=flat-square"></a>
 </br>
 <img src="https://img.shields.io/twitter/follow/Satoverse_io?style=flat-square&logo=twitter&logoColor=deepblue&color=deeppink" alt="follow on Twitter"></a>
 <img src="https://img.shields.io/discord/954156720639316028?style=%20flat-square&logo=discord&logoColor=white&label=Discord&color=deeppink&link=https%3A%2F%2Fdiscord.com%2Finvite%2FGFZYFuuHVq" alt="Discord"></a></br>
