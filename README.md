@@ -2,6 +2,16 @@
 
 <b>PS!</b> This repo only contains the Satoxcoin Core Wallet, <b>NOT</b> the P2E System.
 
+<img src="https://img.shields.io/github/v/release/satoverse/satoxcoin?&style=flat-square&logo=github&color=deeppink"></a>
+<img src="https://img.shields.io/github/release-date/satoverse/satoxcoin?display_date=published_at&style=flat-square&logo=github&color=deeppink"></a>
+<img src="https://img.shields.io/github/forks/satoverse/satoxcoin?&style=flat-square&logo=github&color=deeppink"></a>
+</br>
+<img src="https://img.shields.io/twitter/follow/Satoverse_io?style=flat-square&logo=twitter&logoColor=deepblue&color=deeppink" alt="follow on Twitter"></a>
+<img src="https://img.shields.io/discord/954156720639316028?style=%20flat-square&logo=discord&logoColor=white&label=Discord&color=deeppink&link=https%3A%2F%2Fdiscord.com%2Finvite%2FGFZYFuuHVq" alt="Discord"></a></br>
+<img src="https://img.shields.io/website?up_message=Online&up_color=deepgreen&down_message=offline&down_color=lightgray&url=https%3A%2F%2Fwww.satoverse.io&style=flat-square&label=satoverse.io"></a>
+<img src="https://img.shields.io/website?up_message=Online&up_color=deepgreen&down_message=offline&down_color=lightgray&url=https%3A%2F%2Fxplore.satoverse.io&style=flat-square&label=Explorer"></a>
+<img src="https://img.shields.io/website?up_message=Online&up_color=deepgreen&down_message=offline&down_color=lightgray&url=https%3A%2F%2Fxplore.satoverse.io/rewards&style=flat-square&label=SATOX P2E System"></a>
+
 What is Satoxcoin?
 =======================
 <b>Satoxcoin ($SATOX)</b> is a coin with its own blockchain. The <b>SATOX</b> project primary mission was to implement <b>P2E</b>, but only in split consensus with <b>POW</b>. True crypto was founded with concept of <b>POW mining</b>, and shall remain so on in future.
@@ -20,6 +30,7 @@ Satoxcoin Specification
 =======================
 * <b>Total Supply</b>            - 8 Billion (would be mind over 100 year.)
 * <b>Burned Coin</b>             - [1+ Billion](https://xplore.satoverse.io/address/SQBurnSatoXAddressXXXXXXXXXXUqEipi)
+* <b>Circulating Supply</b>            - 
 * <b>Algorithm</b>               - KawPoW
 * <b>Type</b>                    - PoW
 * <b>Block Time</b>              - 60 sec
