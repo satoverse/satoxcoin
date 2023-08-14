@@ -102,7 +102,6 @@ Exchanges
 * <b>COINSBIT</b>               - https://coinsbit.io/trade/SATOX_USDT
 * <b>AZBIT</b>                  - https://azbit.com/exchange/SATOX_USDT/
 * <b>DEX-TRADE</b>              - https://dex-trade.com/spot/trading/SATOXUSDT
-* <b>TXBIT.IO</b>               - https://txbit.io/Trade/SATOX/USDT
 * <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
 
 
