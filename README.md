@@ -92,6 +92,7 @@ Mining
 ==================================
 * <b>MiningPoolStats</b>        - https://miningpoolstats.stream/satoxcoin
 * <b>MinerStats</b>             - https://minerstat.com/coin/SATOX
+* <b>Hashrate.no</b>            - https://hashrate.no/coins/SATOX
 * <b>Poolbay.io</b>             - https://poolbay.io/crypto/5830/satoxcoin
 
 Exchanges
