@@ -50,6 +50,7 @@ Information
 ==================================
 
 * <b>Site</b>                    - https://www.satoverse.io
+* <b>History</b>                 - https://www.satoverse.io/history-of-satox/
 * <b>Whitepaper</b>              - https://www.satoverse.io/whitepaper/ 
 * <b>Docs</b>                    - https://docs.satoverse.io
 * <b>Explorer</b>                - https://xplore.satoverse.io
