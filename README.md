@@ -1,6 +1,6 @@
 <img src="https://www.satoverse.io/wp-content/uploads/2023/06/Satoxcoin-banner-github.png" alt="Satoxcoin - The future of play2earn" title="Satoxcoin - The future of play2earn">
 
-<b>PS!</b> This repo only contains the Satoxcoin Core Wallet, <b>NOT</b> the P2E System.
+<b>PS!</b> This repo ONLY contains the Satoxcoin Core Wallet, <b>NOT</b> the P2E System.
 
 <img src="https://img.shields.io/github/v/release/satoverse/satoxcoin?&style=flat-square&logo=github&color=deeppink"></a>
 <img src="https://img.shields.io/github/release-date/satoverse/satoxcoin?display_date=published_at&style=flat-square&logo=github&color=deeppink"></a>
@@ -25,7 +25,7 @@ What makes Satoxcoin unique?
 =======================
 <b>
 ✅️ First P2E without the need for dedicated servers</br>
-✅️ First P2E that works on 375+ games on STEAM.</br>
+✅️ First P2E that works on 680+ games on STEAM.</br>
 ✅️ First P2E that works with gaming consoles (XBOX, STEAMDECK)</br>
 </b></br>
 
@@ -99,13 +99,13 @@ Mining
 Exchanges
 ==================================
 * <b>TRADEOGRE</b>              - https://tradeogre.com/exchange/SATOX-USDT
+* <b>DEX-TRADE</b>              - https://dex-trade.com/spot/trading/SATOXUSDT
+* <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
 * <b>INDOEX</b>                 - https://indoex.io/orderbookmobile/SATOX_USDT
 * <b>P2B</b>                    - https://p2pb2b.com/trade/SATOX_USDT/
 * <b>COINSBIT</b>               - https://coinsbit.io/trade/SATOX_USDT
 * <b>AZBIT</b>                  - https://azbit.com/exchange/SATOX_USDT/
-* <b>DEX-TRADE</b>              - https://dex-trade.com/spot/trading/SATOXUSDT
-* <b>TXBIT.IO</b>               - https://txbit.io/Trade/SATOX/USDT
-* <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
+
 
 
 
