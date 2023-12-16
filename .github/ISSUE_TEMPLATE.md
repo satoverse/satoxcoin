@@ -1,9 +1,11 @@
 <!--- Remove sections that do not apply -->
 
-This issue tracker is only for technical issues related to Ravencoin.
+This issue tracker is only for technical issues related to Satoxcoin.
 
-General Ravencoin questions and/or support requests and are best directed to the [Ravencoin Discord](https://discord.gg/jn6uhur)).
+General Satoxcoin questions and/or support requests and are best directed to the 
 
+[Official Satoxcoin Discord](https://discord.com/invite/GFZYFuuHVq).</br>
+[Official Satoxcoin Telegram](https://t.me/satoxcoin)</br>
 For reporting security issues, please direct message one of the core developers in discord.
 
 ### Describe the issue
