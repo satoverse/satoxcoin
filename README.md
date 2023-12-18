@@ -98,16 +98,10 @@ Mining
 
 Exchanges
 ==================================
+* <b>XT</b>                     - https://www.xt.com/en/trade/satox_usdt
 * <b>TRADEOGRE</b>              - https://tradeogre.com/exchange/SATOX-USDT
 * <b>DEX-TRADE</b>              - https://dex-trade.com/spot/trading/SATOXUSDT
 * <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
-* <b>INDOEX</b>                 - https://indoex.io/orderbookmobile/SATOX_USDT
-* <b>P2B</b>                    - https://p2pb2b.com/trade/SATOX_USDT/
-* <b>COINSBIT</b>               - https://coinsbit.io/trade/SATOX_USDT
-* <b>AZBIT</b>                  - https://azbit.com/exchange/SATOX_USDT/
-
-
-
 
 SATOX Play2Earn
 =======================
