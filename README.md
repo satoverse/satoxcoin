@@ -25,7 +25,7 @@ What makes Satoxcoin unique?
 =======================
 <b>
 ✅️ First P2E without the need for dedicated servers</br>
-✅️ First P2E that works on 680+ games on STEAM.</br>
+✅️ First P2E that works on 1000+ games on STEAM.</br>
 ✅️ First P2E that works with gaming consoles (XBOX, STEAMDECK)</br>
 </b></br>
 
@@ -37,7 +37,7 @@ Satoxcoin Specification
 * <b>Algorithm</b>               - KawPoW
 * <b>Type</b>                    - PoW
 * <b>Block Time</b>              - 60 sec
-* <b>Block Reward</b>            - 90% PoW | [10% Dev fee (P2E is taken from Dev fee)](https://xplore.satoverse.io/address/SQ5iQMsmqZiYY96rTx5Hisd7sx5GiGUbbN) - (270 SATOX reward, 30 SATOX Dev fee)
+* <b>Block Reward</b>            - 90% PoW | [10% P2E Dev fund](https://xplore.satoverse.io/address/SQ5iQMsmqZiYY96rTx5Hisd7sx5GiGUbbN) - (270 SATOX reward, 30 SATOX Dev fee)
 * <b>Premine</b>                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
 * <b>Retarget Algorithm</b>      - DGW
 * <b>Instamine Protection</b>    - 1000 Blocks
@@ -52,6 +52,7 @@ Information
 * <b>Site</b>                    - https://www.satoverse.io
 * <b>History</b>                 - https://www.satoverse.io/history-of-satox/
 * <b>Whitepaper</b>              - https://www.satoverse.io/whitepaper/ 
+* <b>Roadmap</b>       	         - https://www.satoverse.io/roadmap/
 * <b>Docs</b>                    - https://docs.satoverse.io
 * <b>Explorer</b>                - https://xplore.satoverse.io
 * <b>Asset Explorer</b>          - https://xplore.satoverse.io/asset/
@@ -98,10 +99,10 @@ Mining
 
 Exchanges
 ==================================
-* <b>XT</b>                     - https://www.xt.com/en/trade/satox_usdt
+* <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
+* <b>XT</b>                     - https://www.xt.com/en/trade/satox_usdt 
 * <b>TRADEOGRE</b>              - https://tradeogre.com/exchange/SATOX-USDT
 * <b>DEX-TRADE</b>              - https://dex-trade.com/spot/trading/SATOXUSDT
-* <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
 
 SATOX Play2Earn
 =======================
@@ -170,5 +171,4 @@ to add a test plan to the pull request description if testing the changes is
 not straightforward.
 
 
-Thank you to the Bitcoin developers.
-Thank you to the Ravencoin developers.
+Thank you to the Bitcoin/ Ravencoin developers.
