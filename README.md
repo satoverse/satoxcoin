@@ -70,10 +70,11 @@ Social Media
 
 Wallets
 ==================================
-* <b>Core Wallet</b>               - https://github.com/satoverse/satoxcoin/releases 
+* <b>Core Wallet</b>               - https://github.com/satoverse/satoxcoin/releases
+* <b>MiracleBox - win/lin/osx</b>  - https://github.com/gemlink/MiracleBox-Release/releases
 * <b>BeeHive - WebWallet</b>       - https://beehivewallet.link/
 * <b>BeeHive - Android</b>         - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
-* <b>Paper Wallet</b>              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app/
+* <b>Paper Wallet</b>              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app
 
 
 Aggregators / Trackers
