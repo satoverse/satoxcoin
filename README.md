@@ -37,7 +37,7 @@ Satoxcoin Specification
 * <b>Algorithm</b>               - KawPoW
 * <b>Type</b>                    - PoW
 * <b>Block Time</b>              - 60 sec
-* <b>Block Reward</b>            - 90% PoW | [10% P2E Dev fund](https://xplore.satoverse.io/address/SQ5iQMsmqZiYY96rTx5Hisd7sx5GiGUbbN) - (270 SATOX reward, 30 SATOX Dev fee)
+* <b>Block Reward</b>            - 90% PoW | [10% P2E fund](https://xplore.satoverse.io/address/SQ5iQMsmqZiYY96rTx5Hisd7sx5GiGUbbN) - (270 SATOX reward - 30 SATOX P2E Fund)
 * <b>Premine</b>                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
 * <b>Retarget Algorithm</b>      - DGW
 * <b>Instamine Protection</b>    - 1000 Blocks
