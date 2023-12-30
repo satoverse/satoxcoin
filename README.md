@@ -102,7 +102,6 @@ Exchanges
 * <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
 * <b>XT</b>                     - https://www.xt.com/en/trade/satox_usdt 
 * <b>TRADEOGRE</b>              - https://tradeogre.com/exchange/SATOX-USDT
-* <b>DEX-TRADE</b>              - https://dex-trade.com/spot/trading/SATOXUSDT
 
 SATOX Play2Earn
 =======================
