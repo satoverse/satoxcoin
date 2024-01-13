@@ -100,9 +100,13 @@ Mining
 
 Exchanges
 ==================================
+* <b>MEXC</b>                   - https://www.mexc.com/exchange/satox_USDT
+* <b>CoinEx</b>                 - https://www.coinex.com/en/exchange/satox-usdt
+* <b>Biconomy</b>               - https://biconomy.com/exchange/SATOX_USDT
 * <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
-* <b>XT</b>                     - https://www.xt.com/en/trade/satox_usdt 
 * <b>TRADEOGRE</b>              - https://tradeogre.com/exchange/SATOX-USDT
+* <b>XT</b>                     - https://www.xt.com/en/trade/satox_usdt
+
 
 SATOX Play2Earn
 =======================
