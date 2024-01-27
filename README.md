@@ -25,7 +25,7 @@ What makes Satoxcoin unique?
 =======================
 <b>
 ✅️ First P2E without the need for dedicated servers</br>
-✅️ First P2E that works on 1000+ games on STEAM.</br>
+✅️ First P2E that works on 1160+ games on STEAM.</br>
 ✅️ First P2E that works with gaming consoles (XBOX, STEAMDECK)</br>
 </b></br>
 
@@ -38,6 +38,7 @@ Satoxcoin Specification
 * <b>Type</b>                    - PoW
 * <b>Block Time</b>              - 60 sec
 * <b>Block Reward</b>            - 90% PoW | [10% P2E fund](https://xplore.satoverse.io/address/SQ5iQMsmqZiYY96rTx5Hisd7sx5GiGUbbN) - (270 SATOX reward - 30 SATOX P2E Fund)
+* <b>Block confirmations</b>     - 100 Blocks
 * <b>Premine</b>                 - 3.5B SATOX(For swap from the SATO chain to the new SATOX chain.)
 * <b>Retarget Algorithm</b>      - DGW
 * <b>Instamine Protection</b>    - 1000 Blocks
@@ -72,6 +73,7 @@ Wallets
 ==================================
 * <b>Core Wallet</b>               - https://github.com/satoverse/satoxcoin/releases
 * <b>MiracleBox - win/lin/osx</b>  - https://github.com/gemlink/MiracleBox-Release/releases
+* <b>Vidulum</b>                   - https://vidulum.app/
 * <b>BeeHive - WebWallet</b>       - https://beehivewallet.link/
 * <b>BeeHive - Android</b>         - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
 * <b>Paper Wallet</b>              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app
