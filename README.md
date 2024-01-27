@@ -19,7 +19,7 @@ What is Satoxcoin?
 =======================
 <b>Satoxcoin ($SATOX)</b> is a coin with its own blockchain. The <b>SATOX</b> project primary mission was to implement <b>P2E</b>, but only in split consensus with <b>POW</b>. True crypto was founded with concept of <b>POW mining</b>, and shall remain so on in future.
 
-We have taken a unique approach to <b>Play2Earn</b>, we are redefining the concept and we believe this is the correct way to earn crypto rewards in 2023, users have already <b>earned SATOX</b> on <b>930+</b> games on <b>STEAM</b>, there’s <b>no need to play on dedicated servers</b>, play like normal and earn your fair share of <b>SATOX</b>.
+We have taken a unique approach to <b>Play2Earn</b>, we are redefining the concept and we believe this is the correct way to earn crypto rewards in 2023, users have already <b>earned SATOX</b> on <b>1160+</b> games on <b>STEAM</b>, there’s <b>no need to play on dedicated servers</b>, play like normal and earn your fair share of <b>SATOX</b>.
 
 What makes Satoxcoin unique?
 =======================
