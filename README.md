@@ -71,12 +71,14 @@ Social Media
 
 Wallets
 ==================================
-* <b>Core Wallet</b>               - https://github.com/satoverse/satoxcoin/releases
-* <b>MiracleBox - win/lin/osx</b>  - https://github.com/gemlink/MiracleBox-Release/releases
-* <b>Vidulum</b>                   - https://vidulum.app/
-* <b>BeeHive - WebWallet</b>       - https://beehivewallet.link/
-* <b>BeeHive - Android</b>         - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
-* <b>Paper Wallet</b>              - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app
+* <b>Core Wallet - Desktop</b>    - https://github.com/satoverse/satoxcoin/releases
+* <b>MiracleBox  - Desktop</b>    - https://github.com/gemlink/MiracleBox-Release/releases
+* <b>Vidulum     - Desktop</b>    - https://vidulum.app/
+* <b>Vidulum     - Android</b>    - https://play.google.com/store/apps/details?id=com.vidulumwallet.app
+* <b>Vidulum     - iPhone </b>    - https://apps.apple.com/us/app/id1505859171
+* <b>BeeHive     - Desktop</b>    - https://beehivewallet.link/
+* <b>BeeHive     - Android</b>    - https://play.google.com/store/apps/details?id=com.beehive.beehivemulti_coinwallet
+* <b>Paper Wallet</b>             - https://walletgenerator-njizr0am7-nao20010128nao.vercel.app
 
 
 Aggregators / Trackers
@@ -104,7 +106,6 @@ Exchanges
 ==================================
 * <b>MEXC</b>                   - https://www.mexc.com/exchange/satox_USDT
 * <b>CoinEx</b>                 - https://www.coinex.com/en/exchange/satox-usdt
-* <b>Biconomy</b>               - https://biconomy.com/exchange/SATOX_USDT
 * <b>XEGGEX</b>                 - https://xeggex.com/market/SATOX_USDT
 * <b>TRADEOGRE</b>              - https://tradeogre.com/exchange/SATOX-USDT
 * <b>XT</b>                     - https://www.xt.com/en/trade/satox_usdt
