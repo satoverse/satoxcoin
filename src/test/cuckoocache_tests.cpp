@@ -9,6 +9,7 @@
 #include "test/test_satoxcoin.h"
 #include "random.h"
 #include <thread>
+#include <deque>
 
 /** Test Suite for CuckooCache
  *
